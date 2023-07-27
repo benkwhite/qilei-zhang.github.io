@@ -112,7 +112,7 @@ author:
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-at"
       url: "mailto:zhan3599@purdue.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
