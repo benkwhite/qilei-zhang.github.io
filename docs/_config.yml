@@ -111,9 +111,9 @@ author:
   location         : "West Lafayette, IN"
   email            :
   links:
-    - label: "Email"
+    - label: "zhan3599@purdue.edu"
       icon: "fas fa-fw fa-at"
-      url: "mailto:zhan3599@purdue.com"
+      url: "mailto:zhan3599@purdue.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/qilei-zhang/"
@@ -128,7 +128,7 @@ author:
       url: "https://github.com/benkwhite"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/benkwhite/"
 
 # Site Footer
 footer:
@@ -150,7 +150,7 @@ footer:
       # url:
     - label: "My Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/benkwhite/"
 
 
 # Reading Files
