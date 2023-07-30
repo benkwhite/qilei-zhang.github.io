@@ -16,12 +16,18 @@ main:
   - title: "Publications"
     url: /publications/
     description: "My Publications"
-  # - title: "Courses & Skills"
-  #   url: /courses/
-  #   description: "My Courses & Skills"
+  - title: "Work Experience"
+    url: /work/
+    description: "My Work Experience"
+  - title: "Skills"
+    url: /courses/
+    description: "My Courses & Skills"
+  - title: "Awards"
+    url: /awards/
+    description: "My Honors & Awards"
   # - title: "CV"
   #   url: /cv/
   #   description: "My CV"
-  # - title: "Photography"
-  #   url: /photography/
-  #   description: "My photography"
+  - title: "Photography"
+    url: /photography/
+    description: "My photography"

@@ -1,0 +1,73 @@
+---
+permalink: /work/
+author_profile: true
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f3f6f6;
+    }
+    h2 {
+      font-size: 1.5em; /* Adjust as needed */
+    }
+    h5, h6 {
+      font-size: 1.2em; /* Adjust as needed */
+    }
+    p {
+      font-size: 1em; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Your HTML content here -->
+<h2> My Work Experience </h2>
+
+<div class="card mb-3" style="font-size: 14px;">
+  <div class="card-body">
+    <h5 class="card-title">Intern of Air Navigation Bureau</h5>
+    <h6 class="card-subtitle mb-2 text-muted">International Civil Aviation Organization (ICAO), Montréal, Canada</h6>
+    <p class="card-text">
+      <strong>Dates:</strong> 02/2019 - 08/2019
+    </p>
+    <h6>Responsibilities:</h6>
+    <ul>
+      <li><strong>Streamlined Project Operations:</strong> Designed a standardized workflow, resulting in improved project coordination and increased efficiency in information management. Contributed to the development of recommendations for project plans, peer review reports and project documents.</li>
+      <li><strong>Improved Project Visibility:</strong> Developed and implemented an internal website using MS SharePoint, enabling easy access and organization of project information. Created performance assessment dashboards to compile and present project data effectively.</li>
+      <li><strong>Strengthened Project Delivery:</strong> Provided support in preparing for the Bangkok Aeronautical Information Management workshop, resulting in successful data visualization monitoring and tracking for the project.</li>
+    </ul>
+    <h6>Technology Used:</h6>
+    <p>MS SharePoint, ...</p> <!-- Add more technology used if applicable -->
+    <a href="https://www.icao.int/Pages/default.aspx"><button class="pdf-button">ICAO Website</button></a>
+    <button class="pdf-button collapsible">ICAO Intro</button>
+      <div class="content">
+        <p>Aircraft ...</p>
+      </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "none") {
+        content.style.display = "block";
+      } else {
+        content.style.display = "none";
+      }
+    });
+  }
+  </script>
+
