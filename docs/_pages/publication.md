@@ -33,7 +33,7 @@ defaults:
       </div>
   </div>
   <div class="pub-image">
-      <img src="/assets/images/publication1.png" alt="Publication Image">
+      <img src="./../assets/images/publication1.png" alt="Publication Image">
   </div>
 </div>
 
@@ -56,7 +56,7 @@ defaults:
       </div>
   </div>
   <div class="pub-image">
-      <img src="/assets/images/publication3.png" alt="Publication Image">
+      <img src="./../assets/images/publication3.png" alt="Publication Image">
   </div>
 </div>
 
@@ -79,7 +79,7 @@ defaults:
       </div>
   </div>
   <div class="pub-image">
-      <img src="/assets/images/publication2.png" alt="Publication Image">
+      <img src="./../assets/images/publication2.png" alt="Publication Image">
   </div>
 </div>
 
@@ -102,7 +102,7 @@ defaults:
       </div>
   </div>
   <div class="pub-image">
-      <img src="/assets/images/publication4.png" alt="Publication Image">
+      <img src="./../assets/images/publication4.png" alt="Publication Image">
   </div>
 </div>
 
