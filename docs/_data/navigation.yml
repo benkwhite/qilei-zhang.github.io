@@ -22,9 +22,9 @@ main:
   - title: "Skills"
     url: /skills/
     description: "My Courses & Skills"
-  - title: "Awards"
-    url: /awards/
-    description: "My Honors & Awards"
+  # - title: "Awards"
+  #   url: /awards/
+  #   description: "My Honors & Awards"
   # - title: "CV"
   #   url: /cv/
   #   description: "My CV"

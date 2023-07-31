@@ -10,6 +10,7 @@ defaults:
       layout: single
       author_profile: true
 ---
+<i class="fa-solid fa-list-check"></i>
 
 # Projects
 ## This is a list of projects I have worked on in the past.
