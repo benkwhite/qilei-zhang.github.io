@@ -20,7 +20,7 @@ main:
     url: /work/
     description: "My Work Experience"
   - title: "Skills"
-    url: /courses/
+    url: /skills/
     description: "My Courses & Skills"
   - title: "Awards"
     url: /awards/
