@@ -4,8 +4,8 @@ author_profile: false
 # layout: Splash
 
 gallery1:
-  - url: "./../assets/images/MtRainier.jpg"
-    image_path: "./../assets/images/MtRainier_th.jpg"
+  - url: "/assets/images/MtRainier.jpg"
+    image_path: "/assets/images/MtRainier_th.jpg"
     alt: "Photo on July 30th, 2023"
     title: "Mt Rainier"
   - url: ./../assets/images/MtCook_hd.jpg
