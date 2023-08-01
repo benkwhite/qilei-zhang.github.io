@@ -22,7 +22,7 @@ gallery1:
     title: "Lotus in West Lake"
 
 feature_row:
-  - image_path: "./../assets/images/Midjourney.jpg"
+  - image_path: "./assets/images/Midjourney.jpg"
     alt: "This is created by Midjourney"
     # title: "This is driven by AI"
     excerpt: "An example of my Midjourney drawing."
