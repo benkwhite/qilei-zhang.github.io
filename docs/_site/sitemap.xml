@@ -22,4 +22,8 @@
 <url>
 <loc>http://localhost:4000/work/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/assets/pdf/SeatPred.pdf</loc>
+<lastmod>2023-08-01T15:01:26-06:00</lastmod>
+</url>
 </urlset>
