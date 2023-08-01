@@ -13,12 +13,12 @@ main:
   - title: "Projects"
     url: /projects/
     description: "My Projects"
-  - title: "Publications"
-    url: /publications/
-    description: "My Publications"
   - title: "Work Experience"
     url: /work/
     description: "My Work Experience"
+  - title: "Publications"
+    url: /publications/
+    description: "My Publications"
   - title: "Skills"
     url: /skills/
     description: "My Courses & Skills"
@@ -29,5 +29,5 @@ main:
   #   url: /cv/
   #   description: "My CV"
   - title: "Photography"
-    url: /photography/
+    url: /photo/
     description: "My photography"

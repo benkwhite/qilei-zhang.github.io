@@ -1,14 +1,17 @@
 ---
 permalink: /publications/
 author_profile: true
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+layout: single
+# toc: true
+# classes: wide
+# defaults:
+#   # _pages
+#   - scope:
+#       path: ""
+#       type: pages
+#     values:
+#       layout: single
+#       author_profile: true
 ---
 
 <!-- ## Published Papers -->
