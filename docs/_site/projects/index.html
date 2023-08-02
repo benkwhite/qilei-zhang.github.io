@@ -292,7 +292,7 @@
           <aside class="sidebar__right ">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#projects">Projects</a><ul><li><a href="#airlines-seats-prediction-and-competition-analysis">Airlines Seats Prediction and Competition Analysis</a></li><li><a href="#advanced-flight-data-analysis-and-phase-identification-for-emission-modeling">Advanced Flight Data Analysis and Phase Identification for Emission Modeling</a></li><li><a href="#enhancing-commuting-with-optimized-vertiport-distribution-and-demand-estimation">Enhancing Commuting with Optimized Vertiport Distribution and Demand Estimation</a></li><li><a href="#pilot-performance-analyses-and-training-evaluation-for-inflight-safety">Pilot Performance Analyses and Training Evaluation for Inflight Safety</a></li><li><a href="#advanced-image-processing-and-optimization-solutions-in-ai-applications">Advanced Image Processing and Optimization Solutions in AI Applications</a></li><li><a href="#study-on-the-solution-of-traveller-salesman-problem-with-deep-reinforcement-learning">Study on the Solution of Traveller Salesman Problem with Deep Reinforcement Learning</a></li><li><a href="#bike-sharing-system-demand-factors-analysis-and-prediction">Bike-sharing system demand factors analysis and prediction</a></li><li><a href="#imaginary-surface-integration-and-airspace-design-for-evtol-operation-safety">Imaginary Surface Integration and Airspace Design for eVTOL Operation Safety</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#projects">Projects</a><ul><li><a href="#airlines-seats-prediction-and-competition-analysis">Airlines Seats Prediction and Competition Analysis</a></li><li><a href="#advanced-flight-data-analysis-and-phase-identification">Advanced Flight Data Analysis and Phase Identification</a></li><li><a href="#enhancing-commuting-with-optimized-vertiport-distribution-and-demand-estimation">Enhancing Commuting with Optimized Vertiport Distribution and Demand Estimation</a></li><li><a href="#pilot-performance-analyses-and-training-evaluation-for-inflight-safety">Pilot Performance Analyses and Training Evaluation for Inflight Safety</a></li><li><a href="#advanced-image-processing-and-optimization-solutions-in-ai-applications">Advanced Image Processing and Optimization Solutions in AI Applications</a></li><li><a href="#study-on-the-solution-of-traveller-salesman-problem-with-deep-reinforcement-learning">Study on the Solution of Traveller Salesman Problem with Deep Reinforcement Learning</a></li><li><a href="#bike-sharing-system-demand-factors-analysis-and-prediction">Bike-sharing system demand factors analysis and prediction</a></li><li><a href="#imaginary-surface-integration-and-airspace-design-for-evtol-operation-safety">Imaginary Surface Integration and Airspace Design for eVTOL Operation Safety</a></li></ul></li></ul>
 
             </nav>
           </aside>
@@ -372,7 +372,7 @@
     }
     .back-to-top {
         position: fixed;
-        bottom: 25px;
+        bottom: 300px;
         right: 25px;
         text-decoration: none;
         color: white !important;
@@ -387,10 +387,11 @@
     }
     figcaption {
         background-color: #f3f3f3; /* light gray */
-        font-size: 0.9em;
+        font-size: 0.6em;
         font-style: italic;
         text-align: center;
         padding: 5px;
+        order-radius: 5px;
     }
     
   </style>
@@ -403,7 +404,7 @@
         $(this).next(".content").slideToggle("slow");
       });
       $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 600) {
             $('#back-to-top').fadeIn();
         } else {
             $('#back-to-top').fadeOut();
@@ -411,6 +412,7 @@
       });
       $('#back-to-top').click(function() {
         $("html, body").animate({ scrollTop: 0 }, 600);
+        $(this).fadeOut();
         return false;
       });
     });
@@ -435,6 +437,7 @@
   
   <!-- buttons for reports and code links, and etc -->
   <a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">PDF</button></a>
+  <a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Code (Release Soon)</button></a>
   <button class="pdf-button collapsible">Details</button>
   <div class="content">
     <p> The initial architecture of the network is defined in the <code>__init__</code> function. Categorical features are first transformed into embedding vectors via embedding layers. Then, based on the specified choice, either a GRU or LSTM layer is used as the recurrent component of the network. The recurrent layer output is transformed by a linear layer, then passed through a self-attention mechanism. This is followed by two feed-forward layers (<code>fc1</code> and <code>fc2</code>) and batch normalization layers (<code>bn1</code> and <code>bn2</code>).</p>
@@ -455,13 +458,44 @@
 
 <p><a href="#top" id="back-to-top" class="back-to-top" style="display: none;"> <b style="color:#FFFFFF font-size: 14px"> ↑ Top </b></a></p>
 
-<h2 id="advanced-flight-data-analysis-and-phase-identification-for-emission-modeling">Advanced Flight Data Analysis and Phase Identification for Emission Modeling</h2>
+<h2 id="advanced-flight-data-analysis-and-phase-identification">Advanced Flight Data Analysis and Phase Identification</h2>
 
-<ul>
-  <li>Employed preprocessing techniques on flight records, incorporating meteorological data and other factors, to enhance data accuracy and completeness, enabling better analysis of operations at general aviation airports.</li>
-  <li>Drawing inspiration from NLP techniques, such as Transformer and BERT, to process time-series flight data, thereby repairing, supplementing, and improving the integrity and reliability of data for advanced analysis.</li>
-  <li>Developed a novel algorithm with supervised and unsupervised machine learning techniques to classify aircraft trajectories into different phases, resulting in a performance improvement of over 20% compared to traditional methods, leading to better noise and emission modeling and addressing public concerns related to airports.</li>
-</ul>
+<div class="project-section">
+  <!-- <h3>Airlines Seats Prediction and Competition Analysis</h3> -->
+  <!-- project time, role, location -->
+  <p class="smaller-text">Project Time: Sep 2020 - May 2024</p>
+  <p class="smaller-text">Role: Project Lead</p>
+  <p class="smaller-text">Location: West Lafayette, IN</p>
+  
+  <p class="smaller-text">The Advanced Flight Data Analysis and Phase Identification project is a pioneering initiative leveraging machine learning techniques and data preprocessing to address issues related to operational data analysis at general aviation airports. The project employs a novel algorithm to identify and classify different aircraft trajectories into flight phases. This approach improves classification performance by over 20%, allowing for more precise noise and emission modeling, ultimately helping address public concerns about airports.</p>
+  
+  <!-- buttons for reports and code links, and etc -->
+  <a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">PDF</button></a>
+  <a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Data</button></a>
+  <a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Slides</button></a>
+  <button class="pdf-button collapsible">Details</button>
+  <div class="content">
+    <p> The project focuses on the potential of Automatic Dependent Surveillance-Broadcast (ADS-B) data, using machine learning to decode operational details from this data, leading to improved noise and emissions models. This process involves preprocessing flight records, incorporating meteorological data and other factors, to improve data accuracy and completeness. These efforts are particularly aimed at general aviation airports, which typically lack comprehensive operational data.</p>
+
+    <p> A core achievement of this project is the development of an algorithm that combines supervised and unsupervised machine learning techniques to classify aircraft trajectories into different flight phases. Compared to traditional methods, this approach significantly improves classification performance, demonstrating over a 20% enhancement in accuracy. This advancement is vital for better noise and emission modeling, directly addressing public concerns related to airports.</p>
+
+    <p> This research led to the successful creation of a framework capable of identifying different flight phases, solving significant problems faced in flight data mining. This new methodological approach was tested and validated using synthetic and empirical ADS-B data, and it showed promising results, positioning it as a feasible solution for deployment in airport operations. The identification of flight phases provides essential data for understanding aircraft operations and their environmental impact, enabling stakeholders to take meaningful action to reduce perceived environmental damage from noise and emissions. </p>
+
+    <p> Finally, the project lays groundwork for future research, proposing the development of a neural network structure that combines the Recurrent Neural Network (RNN) and Generative adversarial network (GAN). This network is designed to process sequential input data and generate missing flight maneuvering event records, reconstructing operational aircraft trajectories into a consecutively spaced data series. The ultimate goal is to develop a system that can provide real-time flight status data to airport managers, aiding in airport planning and facilitating accurate input into airport evaluation tools and environmental studies. </p>
+  </div>
+  
+  <!-- Add picture caption and option to adjust image size -->
+  <figure>
+    <img class="project-img" src="/assets/images/zhang1.png" alt="This flow chart is from my first publication. Check more detailed explanation in Paper." />
+    <figcaption>Flowchart of the methodology in first step of the Flight Phase Identification.</figcaption>
+  </figure>
+</div>
+
+<p><a href="#top" id="back-to-top" class="back-to-top" style="display: none;"> <b style="color:#FFFFFF font-size: 14px"> ↑ Top </b></a></p>
+
+<!-- - Employed preprocessing techniques on flight records, incorporating meteorological data and other factors, to enhance data accuracy and completeness, enabling better analysis of operations at general aviation airports.
+- Drawing inspiration from NLP techniques, such as Transformer and BERT, to process time-series flight data, thereby repairing, supplementing, and improving the integrity and reliability of data for advanced analysis.
+- Developed a novel algorithm with supervised and unsupervised machine learning techniques to classify aircraft trajectories into different phases, resulting in a performance improvement of over 20% compared to traditional methods, leading to better noise and emission modeling and addressing public concerns related to airports. -->
 
 <h2 id="enhancing-commuting-with-optimized-vertiport-distribution-and-demand-estimation">Enhancing Commuting with Optimized Vertiport Distribution and Demand Estimation</h2>
 <ul>
@@ -470,32 +504,53 @@
   <li>Conducted benefit-cost analysis, revealing an equilibrium point that resulted in a time value saving of $00024;100M, demonstrating the effectiveness of UAM in reducing long-haul commute times.</li>
 </ul>
 
+<p><a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Paper</button></a>
+<a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Slides</button></a></p>
+
 <h2 id="pilot-performance-analyses-and-training-evaluation-for-inflight-safety">Pilot Performance Analyses and Training Evaluation for Inflight Safety</h2>
 <ul>
   <li>Analyzed Inflight-Loss-of-Control accidents by assessing pilots’ energy management performance, processing A/B test flight records into quantifiable scores using fuzzy logic, and enhancing accident evaluation.</li>
   <li>Developed performance metrics and conducted advanced statistical analyses with Python/Scipy, culminating in a technical report for the FAA, showcasing the impact of effective pilot training.</li>
 </ul>
 
+<p><a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Report</button></a></p>
+
 <h2 id="advanced-image-processing-and-optimization-solutions-in-ai-applications">Advanced Image Processing and Optimization Solutions in AI Applications</h2>
 <ul>
   <li>Designed object detection and localization models using convolutional and skip block networks, as well as independently implemented YOLO architecture, achieving accurate results on the COCO dataset; Generated realistic images with GANs using the CelebA dataset.</li>
 </ul>
+
+<p><a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Report</button></a></p>
 
 <h2 id="study-on-the-solution-of-traveller-salesman-problem-with-deep-reinforcement-learning">Study on the Solution of Traveller Salesman Problem with Deep Reinforcement Learning</h2>
 <ul>
   <li>Working with teamates <a href="https://www.cs.purdue.edu/people/graduate-students/bai123.html">Site Bai</a>, we developed an S2V-DQN algorithm to efficiently solve TSP with time windows, attaining results comparable to traditional operations research tools.</li>
 </ul>
 
+<p><a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Report</button></a></p>
+
 <h2 id="bike-sharing-system-demand-factors-analysis-and-prediction">Bike-sharing system demand factors analysis and prediction</h2>
 <ul>
   <li>Analyzed the factors that affect the demand for bike-sharing systems, such as weather, time, and location, and developed a model to predict the number of bikes needed at each station.</li>
 </ul>
+
+<p><a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Report</button></a></p>
 
 <h2 id="imaginary-surface-integration-and-airspace-design-for-evtol-operation-safety">Imaginary Surface Integration and Airspace Design for eVTOL Operation Safety</h2>
 <ul>
   <li>Designed a comprehensive vertiport safety envelope for Urban Air Mobility (UAM) and optimized its urban airspace for efficient and safe operation of electric Vertical Take-off and Landing (eVTOL) aircraft.</li>
   <li>Created a cutting-edge simulation model that determined the most efficient eVTOL routes while taking into account both urban airspace and ATC limitations, improving safety and operational efficiency.</li>
 </ul>
+
+<p><a href="/assets/pdf/SeatPred.pdf"><button class="pdf-button">Report</button></a></p>
+
+<figure>
+  <video width="576" height="324" controls="">
+    <source src="/assets/video/ImaginarySurface.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <figcaption class="figure-caption">An imaginaray surface and eVTOL operation demonstration.</figcaption>
+</figure>
 
 <!-- ## Checkout the Publication Page -->
 

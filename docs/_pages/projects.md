@@ -3,6 +3,7 @@ permalink: /projects/
 author_profile: true
 layout: single
 toc: true
+toc_sticky: false
 ---
 <!-- <i class="fa-solid fa-list-check"></i> -->
 
@@ -79,7 +80,7 @@ toc: true
     }
     .back-to-top {
         position: fixed;
-        bottom: 25px;
+        bottom: 300px;
         right: 25px;
         text-decoration: none;
         color: white !important;
@@ -94,10 +95,11 @@ toc: true
     }
     figcaption {
         background-color: #f3f3f3; /* light gray */
-        font-size: 0.9em;
+        font-size: 0.6em;
         font-style: italic;
         text-align: center;
         padding: 5px;
+        order-radius: 5px;
     }
     
   </style>
@@ -110,7 +112,7 @@ toc: true
         $(this).next(".content").slideToggle("slow");
       });
       $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 600) {
             $('#back-to-top').fadeIn();
         } else {
             $('#back-to-top').fadeOut();
@@ -118,6 +120,7 @@ toc: true
       });
       $('#back-to-top').click(function() {
         $("html, body").animate({ scrollTop: 0 }, 600);
+        $(this).fadeOut();
         return false;
       });
     });
@@ -143,6 +146,7 @@ toc: true
   
   <!-- buttons for reports and code links, and etc -->
   <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">PDF</button></a>
+  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Code (Release Soon)</button></a>
   <button class="pdf-button collapsible">Details</button>
   <div class="content">
     <p> The initial architecture of the network is defined in the <code>__init__</code> function. Categorical features are first transformed into embedding vectors via embedding layers. Then, based on the specified choice, either a GRU or LSTM layer is used as the recurrent component of the network. The recurrent layer output is transformed by a linear layer, then passed through a self-attention mechanism. This is followed by two feed-forward layers (<code>fc1</code> and <code>fc2</code>) and batch normalization layers (<code>bn1</code> and <code>bn2</code>).</p>
@@ -163,34 +167,88 @@ toc: true
 
 <a href="#top" id="back-to-top" class="back-to-top" style="display: none;"> <b style="color:#FFFFFF font-size: 14px"> &#8593; Top </b></a>
 
-## Advanced Flight Data Analysis and Phase Identification for Emission Modeling
+## Advanced Flight Data Analysis and Phase Identification
 
-- Employed preprocessing techniques on flight records, incorporating meteorological data and other factors, to enhance data accuracy and completeness, enabling better analysis of operations at general aviation airports.
+<div class="project-section">
+  <!-- <h3>Airlines Seats Prediction and Competition Analysis</h3> -->
+  <!-- project time, role, location -->
+  <p class="smaller-text">Project Time: Sep 2020 - May 2024</p>
+  <p class="smaller-text">Role: Project Lead</p>
+  <p class="smaller-text">Location: West Lafayette, IN</p>
+  
+  <p class="smaller-text">The Advanced Flight Data Analysis and Phase Identification project is a pioneering initiative leveraging machine learning techniques and data preprocessing to address issues related to operational data analysis at general aviation airports. The project employs a novel algorithm to identify and classify different aircraft trajectories into flight phases. This approach improves classification performance by over 20%, allowing for more precise noise and emission modeling, ultimately helping address public concerns about airports.</p>
+  
+  <!-- buttons for reports and code links, and etc -->
+  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">PDF</button></a>
+  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Data</button></a>
+  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Slides</button></a>
+  <button class="pdf-button collapsible">Details</button>
+  <div class="content">
+    <p> The project focuses on the potential of Automatic Dependent Surveillance-Broadcast (ADS-B) data, using machine learning to decode operational details from this data, leading to improved noise and emissions models. This process involves preprocessing flight records, incorporating meteorological data and other factors, to improve data accuracy and completeness. These efforts are particularly aimed at general aviation airports, which typically lack comprehensive operational data.</p>
+
+    <p> A core achievement of this project is the development of an algorithm that combines supervised and unsupervised machine learning techniques to classify aircraft trajectories into different flight phases. Compared to traditional methods, this approach significantly improves classification performance, demonstrating over a 20% enhancement in accuracy. This advancement is vital for better noise and emission modeling, directly addressing public concerns related to airports.</p>
+
+    <p> This research led to the successful creation of a framework capable of identifying different flight phases, solving significant problems faced in flight data mining. This new methodological approach was tested and validated using synthetic and empirical ADS-B data, and it showed promising results, positioning it as a feasible solution for deployment in airport operations. The identification of flight phases provides essential data for understanding aircraft operations and their environmental impact, enabling stakeholders to take meaningful action to reduce perceived environmental damage from noise and emissions. </p>
+
+    <p> Finally, the project lays groundwork for future research, proposing the development of a neural network structure that combines the Recurrent Neural Network (RNN) and Generative adversarial network (GAN). This network is designed to process sequential input data and generate missing flight maneuvering event records, reconstructing operational aircraft trajectories into a consecutively spaced data series. The ultimate goal is to develop a system that can provide real-time flight status data to airport managers, aiding in airport planning and facilitating accurate input into airport evaluation tools and environmental studies. </p>
+  </div>
+  
+  <!-- Add picture caption and option to adjust image size -->
+  <figure>
+    <img class="project-img" src="{{ '/assets/images/zhang1.png' | relative_url }}" alt="This flow chart is from my first publication. Check more detailed explanation in Paper.">
+    <figcaption>Flowchart of the methodology in first step of the Flight Phase Identification.</figcaption>
+  </figure>
+</div>
+
+<a href="#top" id="back-to-top" class="back-to-top" style="display: none;"> <b style="color:#FFFFFF font-size: 14px"> &#8593; Top </b></a>
+
+<!-- - Employed preprocessing techniques on flight records, incorporating meteorological data and other factors, to enhance data accuracy and completeness, enabling better analysis of operations at general aviation airports.
 - Drawing inspiration from NLP techniques, such as Transformer and BERT, to process time-series flight data, thereby repairing, supplementing, and improving the integrity and reliability of data for advanced analysis.
-- Developed a novel algorithm with supervised and unsupervised machine learning techniques to classify aircraft trajectories into different phases, resulting in a performance improvement of over 20% compared to traditional methods, leading to better noise and emission modeling and addressing public concerns related to airports.
+- Developed a novel algorithm with supervised and unsupervised machine learning techniques to classify aircraft trajectories into different phases, resulting in a performance improvement of over 20% compared to traditional methods, leading to better noise and emission modeling and addressing public concerns related to airports. -->
 
 ## Enhancing Commuting with Optimized Vertiport Distribution and Demand Estimation
 - Investigated the feasible distribution of vertiports for Urban Air Mobility (UAM) operations using a Grid Distance Based Clustering optimization method, considering commuting demand in the Chicago metropolitan area to maximize the benefits of this emerging transportation service.
 - Optimized processing for millions of demographic data points by employing matrix and vectorization operations, utilizing Google Maps Routes API, and conducting random sampling modeling with neural networks and regression analysis before applying the model to the large population.
 - Conducted benefit-cost analysis, revealing an equilibrium point that resulted in a time value saving of $00024;100M, demonstrating the effectiveness of UAM in reducing long-haul commute times.
 
+<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Paper</button></a>
+<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Slides</button></a>
+
 ## Pilot Performance Analyses and Training Evaluation for Inflight Safety
 - Analyzed Inflight-Loss-of-Control accidents by assessing pilots' energy management performance, processing A/B test flight records into quantifiable scores using fuzzy logic, and enhancing accident evaluation.
 - Developed performance metrics and conducted advanced statistical analyses with Python/Scipy, culminating in a technical report for the FAA, showcasing the impact of effective pilot training.
 
+<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
+
 ## Advanced Image Processing and Optimization Solutions in AI Applications
 - Designed object detection and localization models using convolutional and skip block networks, as well as independently implemented YOLO architecture, achieving accurate results on the COCO dataset; Generated realistic images with GANs using the CelebA dataset.
+
+<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
 
 ## Study on the Solution of Traveller Salesman Problem with Deep Reinforcement Learning
 - Working with teamates [Site Bai](https://www.cs.purdue.edu/people/graduate-students/bai123.html), we developed an S2V-DQN algorithm to efficiently solve TSP with time windows, attaining results comparable to traditional operations research tools.
 
+<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
+
 ## Bike-sharing system demand factors analysis and prediction
 - Analyzed the factors that affect the demand for bike-sharing systems, such as weather, time, and location, and developed a model to predict the number of bikes needed at each station.
+
+<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
 
 ## Imaginary Surface Integration and Airspace Design for eVTOL Operation Safety
 - Designed a comprehensive vertiport safety envelope for Urban Air Mobility (UAM) and optimized its urban airspace for efficient and safe operation of electric Vertical Take-off and Landing (eVTOL) aircraft.
 - Created a cutting-edge simulation model that determined the most efficient eVTOL routes while taking into account both urban airspace and ATC limitations, improving safety and operational efficiency.
 
+<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
+
+
+<figure>
+  <video width="576" height="324" controls>
+    <source src="{{ '/assets/video/ImaginarySurface.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <figcaption class="figure-caption">An imaginaray surface and eVTOL operation demonstration.</figcaption>
+</figure>
 
 
 <!-- ## Checkout the Publication Page -->
