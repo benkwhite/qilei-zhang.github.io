@@ -28,7 +28,10 @@ feature_row:
     excerpt: "An example of my Midjourney drawing."
 ---
 
+<i class="fas fa-solid fa-camera-retro"></i>
+
 {% include gallery id="gallery1" layout="half" caption="This is my gallery. Continue to be updated. Check more on my Instagram." %}
 
+<i class="fas fa-solid fa-robot"></i>
 {% include feature_row %}
 

@@ -16,7 +16,7 @@ layout: single
 
 <!-- ## Published Papers -->
 
-<h2> Published Papers </h2>
+<h2> <i class="fas fa-solid fa-paperclip"></i> Published Papers </h2>
 
 <div class="pub-container">
   <strong>[1]</strong>

@@ -255,7 +255,7 @@ toc_sticky: true
 - Analyzed Inflight-Loss-of-Control accidents by assessing pilots' energy management performance, processing A/B test flight records into quantifiable scores using fuzzy logic, and enhancing accident evaluation.
 - Developed performance metrics and conducted advanced statistical analyses with Python/Scipy, culminating in a technical report for the FAA, showcasing the impact of effective pilot training.
 
-<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
+<a href="{{ '/assets/pdf/PilotPerf.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
 
 ## Advanced Image Processing and Optimization Solutions in AI Applications
 - Designed object detection and localization models using convolutional and skip block networks, as well as independently implemented YOLO architecture, achieving accurate results on the COCO dataset; Generated realistic images with GANs using the CelebA dataset.
@@ -263,7 +263,7 @@ toc_sticky: true
 <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
 
 ## Study on the Solution of Traveller Salesman Problem with Deep Reinforcement Learning
-- Working with teamates [Site Bai](https://www.cs.purdue.edu/people/graduate-students/bai123.html), we developed an S2V-DQN algorithm to efficiently solve TSP with time windows, attaining results comparable to traditional operations research tools.
+- Working with my teammate [Site Bai](https://www.cs.purdue.edu/people/graduate-students/bai123.html), an S2V-DQN algorithm was developed to efficiently solve TSP with time windows, attaining results comparable to traditional operations research tools.
 
 <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Report</button></a>
 
