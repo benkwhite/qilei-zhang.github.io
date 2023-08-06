@@ -287,7 +287,7 @@ toc_sticky: true
 ## Advanced Image Processing and Optimization Solutions in AI Applications
 <div class="project-section">
   <!-- project time, role, location -->
-  <p class="smaller-text">Project Time: Aug 2021 - May 2022</p>
+  <p class="smaller-text">Project Time: Jan 2022 - May 2022</p>
   <!-- <p class="smaller-text">Role: Project Lead</p> -->
   <p class="smaller-text">Location: West Lafayette, IN</p>
   
@@ -317,7 +317,7 @@ toc_sticky: true
 ## Study on the Solution of Traveller Salesman Problem with Deep Reinforcement Learning
 <div class="project-section">
   <!-- project time, role, location -->
-  <p class="smaller-text">Project Time: Aug 2021 - May 2022</p>
+  <p class="smaller-text">Project Time: Jan 2021 - May 2021</p>
   <!-- <p class="smaller-text">Role: Project Lead</p> -->
   <p class="smaller-text">Location: West Lafayette, IN</p>
   
