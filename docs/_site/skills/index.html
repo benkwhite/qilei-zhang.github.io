@@ -314,10 +314,15 @@
     text-decoration: none !important;
     }
     .list-group {
-        font-size: 15px;
+        font-size: 16px;
     }
     .course-section {
     margin-bottom: 1em;
+    }
+    .my-btn {
+        padding: 2px 5px;
+        font-size: 10px;
+        line-height: 1.5;
     }
   </style>
 </head>
@@ -379,8 +384,19 @@
     <div class="col-sm-12 col-md-12 course-section">
       <h3>Programming Skills</h3>
       <ul class="list-group">
-        <li class="list-group-item">ECE 695 Deep Learning <span class="badge badge-success float-right">A+</span><span class="badge bg-light float-right">PU</span></li>
-        <li class="list-group-item">CS 578 Statistical Machine Learning <span class="badge badge-success float-right">A+</span><span class="badge bg-light float-right">PU</span></li>
+        <!-- <li class="list-group-item">ECE 695 Deep Learning <span class="badge badge-success float-right">A+</span><span class="badge bg-light float-right">PU</span></li> -->
+        <li class="list-group-item">
+          CS 578 Statistical Machine Learning 
+          <a href="/assets/pdf/cs578notes.pdf" class="btn my-btn btn-outline-info" style="font-size: 15px;">Notes</a>
+          <span class="badge badge-success float-right">A+</span>
+          <span class="badge bg-light float-right">PU</span>
+        </li>
+        <li class="list-group-item">
+          ECE 695 Deep Learning
+          <a href="/assets/pdf/ece695notes.pdf" class="btn my-btn btn-outline-info" style="font-size: 15px;">Assignment</a>
+          <span class="badge badge-success float-right">A+</span>
+          <span class="badge bg-light float-right">PU</span>
+        </li>
         <li class="list-group-item">CS 50023 Data Engineering <span class="badge badge-success float-right">A+</span><span class="badge bg-light float-right">PU</span></li>
         <li class="list-group-item">CGT 575 Data Visualization Tools and Applications <span class="badge badge-success float-right">A+</span><span class="badge bg-light float-right">PU</span></li>
       </ul>
