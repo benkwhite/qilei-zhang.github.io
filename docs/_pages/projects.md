@@ -131,7 +131,7 @@ toc_sticky: true
 # Projects
 
 <!-- <h2>Projects</h2> -->
-*Note: This page is still under construction. Please check back later.*
+<!-- *Note: This page is still under construction. Please check back later.* -->
 ## Airlines Seats Prediction and Competition Analysis
 <div class="project-section">
   <!-- <h3>Airlines Seats Prediction and Competition Analysis</h3> -->
