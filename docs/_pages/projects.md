@@ -3,7 +3,7 @@ permalink: /projects/
 author_profile: true
 layout: single
 toc: true
-toc_sticky: false
+toc_sticky: true
 ---
 <!-- <i class="fa-solid fa-list-check"></i> -->
 
@@ -80,8 +80,8 @@ toc_sticky: false
     }
     .back-to-top {
         position: fixed;
-        bottom: 300px;
-        right: 25px;
+        bottom: 280px;
+        right: 15px;
         text-decoration: none;
         color: white !important;
         background-color: #1dbbe1; /* Modern blue */
@@ -145,8 +145,8 @@ toc_sticky: false
   <p class="smaller-text">The recurrent neural network architecture in the model incorporates various features including embeddings for categorical features, bidirectional recurrent layers (either GRU or LSTM), a self-attention mechanism, feed-forward layers with optional dropout, batch normalization, and an output layer that can either predict an output directly or predict a mean and standard deviation, depending on the chosen loss function.</p>
   
   <!-- buttons for reports and code links, and etc -->
-  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">PDF</button></a>
-  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Code (Release Soon)</button></a>
+  <a href="{{ '/projects/seats/' | relative_url }}"><button class="pdf-button">Readme</button></a>
+  <a href="https://github.com/benkwhite"><button class="pdf-button">Code (Release Soon)</button></a>
   <button class="pdf-button collapsible">Details</button>
   <div class="content">
     <p> The initial architecture of the network is defined in the <code>__init__</code> function. Categorical features are first transformed into embedding vectors via embedding layers. Then, based on the specified choice, either a GRU or LSTM layer is used as the recurrent component of the network. The recurrent layer output is transformed by a linear layer, then passed through a self-attention mechanism. This is followed by two feed-forward layers (<code>fc1</code> and <code>fc2</code>) and batch normalization layers (<code>bn1</code> and <code>bn2</code>).</p>
@@ -179,9 +179,10 @@ toc_sticky: false
   <p class="smaller-text">The Advanced Flight Data Analysis and Phase Identification project is a pioneering initiative leveraging machine learning techniques and data preprocessing to address issues related to operational data analysis at general aviation airports. The project employs a novel algorithm to identify and classify different aircraft trajectories into flight phases. This approach improves classification performance by over 20%, allowing for more precise noise and emission modeling, ultimately helping address public concerns about airports.</p>
   
   <!-- buttons for reports and code links, and etc -->
-  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">PDF</button></a>
-  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Data</button></a>
-  <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Slides</button></a>
+  <a href="https://doi.org/10.1109/TITS.2021.3106774"><button class="pdf-button">Paper 1</button></a>
+  <a href="https://doi.org/10.1177/03611981221127016"><button class="pdf-button">Paper 2</button></a>
+  <a href="https://purr.purdue.edu/publications/3852/1"><button class="pdf-button">Data</button></a>
+  <!-- <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Slides</button></a> -->
   <button class="pdf-button collapsible">Details</button>
   <div class="content">
     <p> The project focuses on the potential of Automatic Dependent Surveillance-Broadcast (ADS-B) data, using machine learning to decode operational details from this data, leading to improved noise and emissions models. This process involves preprocessing flight records, incorporating meteorological data and other factors, to improve data accuracy and completeness. These efforts are particularly aimed at general aviation airports, which typically lack comprehensive operational data.</p>
@@ -191,6 +192,14 @@ toc_sticky: false
     <p> This research led to the successful creation of a framework capable of identifying different flight phases, solving significant problems faced in flight data mining. This new methodological approach was tested and validated using synthetic and empirical ADS-B data, and it showed promising results, positioning it as a feasible solution for deployment in airport operations. The identification of flight phases provides essential data for understanding aircraft operations and their environmental impact, enabling stakeholders to take meaningful action to reduce perceived environmental damage from noise and emissions. </p>
 
     <p> Finally, the project lays groundwork for future research, proposing the development of a neural network structure that combines the Recurrent Neural Network (RNN) and Generative adversarial network (GAN). This network is designed to process sequential input data and generate missing flight maneuvering event records, reconstructing operational aircraft trajectories into a consecutively spaced data series. The ultimate goal is to develop a system that can provide real-time flight status data to airport managers, aiding in airport planning and facilitating accurate input into airport evaluation tools and environmental studies. </p>
+
+    <figure>
+    <video width="500" height="500" controls>
+      <source src="{{ '/assets/video/adsb_sim.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption class="figure-caption">Demo of ADS-B Simulation.</figcaption>
+    </figure>
   </div>
   
   <!-- Add picture caption and option to adjust image size -->
@@ -200,19 +209,47 @@ toc_sticky: false
   </figure>
 </div>
 
-<a href="#top" id="back-to-top" class="back-to-top" style="display: none;"> <b style="color:#FFFFFF font-size: 14px"> &#8593; Top </b></a>
+<!-- <a href="#top" id="back-to-top" class="back-to-top" style="display: none;"> <b style="color:#FFFFFF font-size: 14px"> &#8593; Top </b></a> -->
 
 <!-- - Employed preprocessing techniques on flight records, incorporating meteorological data and other factors, to enhance data accuracy and completeness, enabling better analysis of operations at general aviation airports.
 - Drawing inspiration from NLP techniques, such as Transformer and BERT, to process time-series flight data, thereby repairing, supplementing, and improving the integrity and reliability of data for advanced analysis.
 - Developed a novel algorithm with supervised and unsupervised machine learning techniques to classify aircraft trajectories into different phases, resulting in a performance improvement of over 20% compared to traditional methods, leading to better noise and emission modeling and addressing public concerns related to airports. -->
 
 ## Enhancing Commuting with Optimized Vertiport Distribution and Demand Estimation
-- Investigated the feasible distribution of vertiports for Urban Air Mobility (UAM) operations using a Grid Distance Based Clustering optimization method, considering commuting demand in the Chicago metropolitan area to maximize the benefits of this emerging transportation service.
-- Optimized processing for millions of demographic data points by employing matrix and vectorization operations, utilizing Google Maps Routes API, and conducting random sampling modeling with neural networks and regression analysis before applying the model to the large population.
-- Conducted benefit-cost analysis, revealing an equilibrium point that resulted in a time value saving of $00024;100M, demonstrating the effectiveness of UAM in reducing long-haul commute times.
 
-<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Paper</button></a>
-<a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Slides</button></a>
+<div class="project-section">
+  <!-- <h3>Airlines Seats Prediction and Competition Analysis</h3> -->
+  <!-- project time, role, location -->
+  <p class="smaller-text">Project Time: Aug 2022 - Jan 2023</p>
+  <p class="smaller-text">Role: Project Lead</p>
+  <p class="smaller-text">Location: West Lafayette, IN</p>
+  
+  <p class="smaller-text">This project offered a dedicated analysis of the potential demand for Urban Air Mobility (UAM) operations, particularly concerning vertiport placement and the desired number of vertiports. The study explores the feasibility of UAM operations in Chicago, illustrating the time-saving benefits of eVTOL trips and providing a solid forecast for stakeholders about this emerging air transportation market. The results reveal UAM's competitive edge and potential to significantly enhance the transportation system's efficiency and equity.</p>
+  
+  <!-- buttons for reports and code links, and etc -->
+  <a href="https://doi.org/10.2514/6.2023-3262"><button class="pdf-button">Paper</button></a>
+  <!-- <a href="https://doi.org/10.1177/03611981221127016"><button class="pdf-button">PDF 2</button></a> -->
+  <!-- <a href="https://purr.purdue.edu/publications/3852/1"><button class="pdf-button">Data</button></a> -->
+  <a href="{{ '/assets/pdf/2023_AIAA_UAM_DIS_Chicago.pdf' | relative_url }}"><button class="pdf-button">Slides</button></a>
+  <a href="https://github.com/benkwhite"><button class="pdf-button">Code (Release Soon)</button></a>
+  <button class="pdf-button collapsible">Details</button>
+  <div class="content">
+    <p> Urban Air Mobility (UAM) concepts have obtained substantial attention in recent years due to their potential to offer an alternative mode of daily transport and alleviate issues such as traffic congestion and environmental pollution. This project, centered around UAM operations, carries out a dedicated analysis of the potential demand within a specific range, which is critical to determining the placement and optimal number of vertiports. The focus of this investigation was the Chicago metropolitan area, a densely populated urban region considered an ideal candidate for such novel air transportation services.</p>
+
+    <p> By assessing the commuting demand in Chicago, the research provides valuable insights into the feasibility of UAM operations and vertiports distribution. The study applies techniques that quantify the benefits brought by UAM, with a particular focus on the time-saving advantages of eVTOL trips compared to traditional driving commutes. The results highlight how competitive the UAM network can be, thereby aiding UAM stakeholders in understanding the prospective market for this innovative transportation modality.</p>
+
+    <p> Additionally, the research underscores the necessity for more comprehensive market evaluations, including more subjective surveys, alongside the objective census data utilized. Collecting additional opinions from policymakers, surrounding communities, and operators are advised, to ensure that benefits for both users and non-users are considered. </p>
+
+    <p> The project also identifies the need for an optimization program to examine vertiport placement more closely and the introduction of a critical constraint, such as vertiport capacity, into the design of this new transportation system. Ultimately, this project argues that UAM should demonstrate the benefits it can bring to the public and promote an efficient and equitable transportation system that provides a convenient and affordable form of transportation for each trip. The study's findings offer a robust forecast for UAM stakeholders and a foundation for future research and developments in this emerging field. </p>
+
+    <!-- Add picture caption and option to adjust image size -->
+  <figure>
+    <img class="project-img" src="{{ '/assets/images/histshift.png' | relative_url }}" alt="Density Distribution of Trip Time Shift Based on 100 Vertiports Simulation.">
+    <figcaption>Density Distribution of Trip Time Shift Based on 100 Vertiports Simulation.</figcaption>
+  </figure>
+  </div>
+</div>
+
 
 ## Pilot Performance Analyses and Training Evaluation for Inflight Safety
 - Analyzed Inflight-Loss-of-Control accidents by assessing pilots' energy management performance, processing A/B test flight records into quantifiable scores using fuzzy logic, and enhancing accident evaluation.

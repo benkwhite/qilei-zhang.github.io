@@ -17,10 +17,17 @@
 <loc>http://localhost:4000/publications/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/projects/seats/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/skills/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/work/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/pdf/2023_AIAA_UAM_DIS_Chicago.pdf</loc>
+<lastmod>2023-08-05T19:27:51-06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/pdf/SeatPred.pdf</loc>
