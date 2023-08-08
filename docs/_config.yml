@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Qilei Zhang"
   avatar           : "/assets/images/profile_logo.png"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Candidate in Industrial Management at Purdue University. Interested in data science, machine learning, and aviation."
+  bio              : "Ph.D. Candidate in Industrial Management at Purdue University. Interested in data science, machine learning, transportation and aviation."
   location         : "West Lafayette, IN"
   email            :
   links:
