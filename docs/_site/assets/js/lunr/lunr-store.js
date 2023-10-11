@@ -4,4 +4,10 @@ var store = [{
         "tags": [],
         "url": "/trip-to-NZ/",
         "teaser": null
+      },{
+        "title": "See you again the Lake of Clouds!",
+        "excerpt":"Oct trip to North Michigan. Colorful leaves, beautiful lakes, and the great Lake Superior. I camped at Porcupine Mountains Wilderness State Park. Feel so lucky to come back again!                                                    The stream next to the Lake of Clouds.       ","categories": [],
+        "tags": [],
+        "url": "/trip-to-NM/",
+        "teaser": null
       }]
