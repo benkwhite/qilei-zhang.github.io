@@ -182,6 +182,8 @@ toc_sticky: true
   <a href="https://doi.org/10.1109/TITS.2021.3106774"><button class="pdf-button">Paper 1</button></a>
   <a href="https://doi.org/10.1177/03611981221127016"><button class="pdf-button">Paper 2</button></a>
   <a href="https://purr.purdue.edu/publications/3852/1"><button class="pdf-button">Data</button></a>
+  <a href="{{ '/assets/pdf/IEEEITS.pdf' | relative_url }}"><button class="pdf-button">PDF1</button></a>
+  <a href="{{ '/assets/pdf/2022_TRR_AM_LTO_Model.pdf' | relative_url }}"><button class="pdf-button">PDF2</button></a>
   <!-- <a href="{{ '/assets/pdf/SeatPred.pdf' | relative_url }}"><button class="pdf-button">Slides</button></a> -->
   <button class="pdf-button collapsible">Details</button>
   <div class="content">
