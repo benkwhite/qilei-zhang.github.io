@@ -395,6 +395,37 @@ toc_sticky: true
   </div>
 </div>
 
+
+## Local and Transfer Passenger Composition Patterns Analysis
+<div class="project-section">
+  <!-- <h3>Airlines Seats Prediction and Competition Analysis</h3> -->
+  <!-- project time, role, location -->
+  <p class="smaller-text">Project Time: May 2024 - Aug 2024</p>
+  <!-- <p>Role: Project Lead</p> -->
+  <p class="smaller-text">Location: West Lafayette, IN</p>
+  
+  <p class="smaller-text">Local passenger and transfer passengers have different behaviors, services needed, and impact during air travel. Understanding the dynamics of composition of local passengers and transfer passengers is crucial for airline competitions and airport operations. In this study, we focus on reveling the insights into the composition of local passengers and transfer passengers from various dimensions. Based on our research ... </p>
+
+  <!-- <p class="smaller-text">The recurrent neural network architecture in the model incorporates various features including embeddings for categorical features, bidirectional recurrent layers (either GRU or LSTM), a self-attention mechanism, feed-forward layers with optional dropout, batch normalization, and an output layer that can either predict an output directly or predict a mean and standard deviation, depending on the chosen loss function.</p> -->
+  
+  <!-- buttons for reports and code links, and etc -->
+  <!-- <a href="{{ '/projects/localshare_demo/' | relative_url }}"><button class="pdf-button">Readme</button></a> -->
+  <a href="{{ '/projects/airport-transfer-change/' | relative_url }}"><button class="pdf-button">View Airport Transfer Share Change Map</button></a>
+  <!-- <a href="{{ './assets/html/dynamic_airport_transit_share_map_year_with_2023.html' | relative_url }}"><button class="pdf-button">View Airport Transfer Share Change Map</button></a> -->
+  
+  <a href="https://github.com/benkwhite/mathtime"><button class="pdf-button">Code (Release Soon)</button></a>
+  <button class="pdf-button collapsible">Details</button>
+  <div class="content">
+    <p> Understanding the local share is pivotal for enhancing both passenger experience and airport revenue.</p>
+  </div>
+  
+  <!-- Add picture caption and option to adjust image size -->
+  <figure>
+    <img class="project-img" src="{{ '/assets/images/Wind_Rose_L_M_2006_2019.png' | relative_url }}" alt="Wind Rose Graph.">
+    <figcaption>Local and Transfer Share Percent Change Comparison between 2006 and 2019</figcaption>
+  </figure>
+</div>
+
 # Other Projects
 
 - Behavior Modeling for Autonomous Vehicles
