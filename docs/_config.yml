@@ -107,13 +107,13 @@ analytics:
 author:
   name             : "Qilei Zhang"
   avatar           : "/assets/images/profile_logo.png"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Ph.D. Candidate in Industrial Management at Purdue University. Interested in data science, machine learning, transportation and aviation."
-  location         : "West Lafayette, IN"
+  bio              : "Lecturer (Equivalent to Asst. Prof. Rank in USA) in Central Queensland University, Australia. Interested in data science, machine learning, transportation and aviation."
+  location         : "Great Barrier Reef, Australia"
   email            :
   links:
-    - label: "zhan3599@purdue.edu"
+    - label: "q.zhang@cqu.edu.au"
       icon: "fas fa-fw fa-at"
-      url: "mailto:zhan3599@purdue.edu"
+      url: "mailto:q.zhang@cqu.edu.au"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/qilei-zhang/"
