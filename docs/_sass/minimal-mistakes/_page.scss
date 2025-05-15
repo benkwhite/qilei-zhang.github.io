@@ -633,3 +633,41 @@ body {
 
 }
 
+.toc-left-only {
+  /* hide H2+ levels */
+  .toc .toc__menu ul { display: none; }
+  /* hide H3+ levels */
+  // .toc .toc__menu ul ul { display: none; }
+
+  /* float sticky ToC to the left on wide screens */
+  @media (min-width: 1100px) {
+    .sidebar__right { float: left; margin: 0 2rem 1rem 0; }
+    .page__content  { margin-left: 18rem; }
+  }
+  .masthead {        /* the top navigation bar in Minimal Mistakes */
+  display: none;   /* hide it on this page only */
+  }
+  /* nuke the static list that appears under the title */
+  // .page__inner-wrap > .toc {
+  //   display: none;
+  // }
+
+  /* Make sure the ToC is on the left side of the page */
+  .toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 18rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000; /* Ensure it stays on top */
+  }
+
+  // .page__inner-wrap nav.toc {
+  //   display: none !important;
+  // }
+
+}
