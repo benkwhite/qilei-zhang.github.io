@@ -1,0 +1,18 @@
+---
+permalink: /projects/UAM-heatmap/
+author_profile: true
+layout: none
+---
+
+<head>
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "juu207ej74");
+    </script>
+</head>
+
+<iframe src="{{ './assets/html/grid_search_test4_1_multiple_variables_add_cutoff_filter.html' | relative_url }}" width="100%" height="1000px" frameborder="0"></iframe>
+

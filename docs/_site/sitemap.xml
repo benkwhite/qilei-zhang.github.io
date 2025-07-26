@@ -9,7 +9,7 @@
 <lastmod>2023-10-01T00:00:00+10:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/projects/OCLT20005-Assessment2/</loc>
+<loc>http://localhost:4000/projects/UAM-heatmap/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/projects/airport-transfer-change/</loc>
@@ -42,6 +42,10 @@
 <url>
 <loc>http://localhost:4000/assets/html/dynamic_airport_transit_share_map_year_with_2023.html</loc>
 <lastmod>2024-08-07T14:48:05+10:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/html/grid_search_test4_1_multiple_variables_add_cutoff_filter.html</loc>
+<lastmod>2025-06-28T12:49:25+10:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/pdf/2022_TRR_AM_LTO_Model.pdf</loc>
