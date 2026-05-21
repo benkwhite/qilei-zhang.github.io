@@ -49,6 +49,14 @@ layout: none
   </style>
 </head>
 
+<iframe src="{{ './assets/html/agg_siting_heatmap.html' | relative_url }}" width="100%" height="1000px" frameborder="0"></iframe>
+
+
+<!-- add a description saying this is a old poster below -->
+
+<p style="margin-top: 16px; font-style: italic; color: #555;">
+  Note: The poster below is from an older results and may not reflect the latest findings. For the most up-to-date information, please refer to our latest publications and reports.
+
 <!-- PDF (placed before the HTML iframe) -->
 <div class="embed-2x1">
   <iframe
@@ -57,4 +65,4 @@ layout: none
   </iframe>
 </div>
 
-<iframe src="{{ './assets/html/agg_siting_heatmap.html' | relative_url }}" width="100%" height="1000px" frameborder="0"></iframe>
+
